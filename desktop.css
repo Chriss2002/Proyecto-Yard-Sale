@@ -1,0 +1,10 @@
+.logo{
+	display: none;
+}
+.login{
+	max-width: 500px;
+	height: 100vh;
+	display: grid;
+	align-items: center;
+	margin: 0 auto;
+}
