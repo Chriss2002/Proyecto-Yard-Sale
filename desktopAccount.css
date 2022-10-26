@@ -1,0 +1,12 @@
+.login{
+	max-width: 500px;
+	height: 100vh;
+	display: grid;
+	align-items: center;
+	margin: 0 auto;
+}
+.create{
+	position: relative;
+	margin-top: 75px;
+	width: 100%;
+}
