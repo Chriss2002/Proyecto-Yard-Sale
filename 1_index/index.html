@@ -5,8 +5,8 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title></title>
-        <link rel="stylesheet" type="text/css" href="login.css">
-        <link rel="stylesheet" type="text/css" href="desktopLogin.css" media="(min-width: 520px)">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <link rel="stylesheet" type="text/css" href="desktop.css" media="(min-width: 520px)">
         <!--links de fuentes-->
         <link rel="preconnect" href="https://fonts.googleapis.com">
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -15,23 +15,20 @@
     <body>
     	<section class="login">
     		<div>
-    		<img src="imgs/logo.png" class="logo">
+    		<img src="../imgs/logo.png" class="logo">
+
+    		<p class="title">Create a new password</p>
+    		<p class="sub-title">Enter a new password for your account</p>
 
     		<form class="form-container" action="/">
-    			<p class="text-input">Email address</p>
-    			<input type="Email" class="inputs input1" placeholder="camilayokoo@gmail.com">
+    			<p class="password">Password</p>
+    			<input type="password" class="input-password input1" placeholder="*********">
 
-    			<p class="text-input">Password</p>
-    			<input type="password" class="inputs" placeholder="*********">
+    			<p class="password">Re-enter password</p>
+    			<input type="password" class="input-password" placeholder="*********">
 
-    			<input type="submit" class="input-login" value="Log in">
+    			<input type="submit" class="confirm" value="Confirm">
     		</form>
-
-            <a href="" class="forgot-password">Forgot my password</a>
-
-            <div class="sing-up--container">
-                <input type="submit" class="sing-up" value="Sing Up">
-            </div>
     		</div>
     	</section>
     </body>
