@@ -1,0 +1,85 @@
+:root{
+	--very-ligth-pink: #C7C7C7;
+	--white: #ffffff;
+	--text-input-field: #f7f7f7;
+	--black: #000000;
+	--hospital-green: #ACD9B2;
+	--dark: #232830;
+}
+
+*{
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+html{
+	font-size: 62.5%;
+	font-family: 'Quicksand', sans-serif;
+}
+.product-container{
+	width: 100%;
+	width: auto;
+}
+
+.product-container img{
+	object-fit: cover;
+	width: 100%;
+	height: 47vh;
+	margin-bottom: 50px;
+	border-radius: 0 0 20px 20px;
+}
+
+.price-container{
+	width: 91%;
+	margin: 0 auto;
+}
+.price{
+	font-size: 1.8rem;
+	line-height: 2rem;
+	font-weight: 700;
+	color: #404040;
+	margin-bottom: 5px;
+}
+.name{
+	font-size: 1.8rem;
+	line-height: 2.2rem;
+	font-weight: 400;
+	color: #797979;
+	margin-bottom: 20px;
+}
+.description{
+	font-size: 1.6rem;
+	line-height: 2rem;
+	font-weight: 400;
+	color: #797979;
+}
+
+
+button{
+	position: absolute;
+	left: 50%;
+	top: 93%;
+	transform: translate(-50%, -50%);
+
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+	width: 91%;
+	height: 60px;
+	border-radius: 10px;
+	background-color: var(--hospital-green);
+	border: none;
+}
+button p{
+	color: var(--white);
+	font-size: 1.8rem;
+	line-height: 2.2rem;
+	font-weight: 700;
+	margin-left: 5px;
+}
+button img{
+	margin-right: 5px;
+}
+

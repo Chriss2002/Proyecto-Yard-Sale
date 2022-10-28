@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+
+    <style type="text/css">
+    	:root{
+                --very-ligth-pink: #C7C7C7;
+                --white: #ffffff;
+                --text-input-field: #f7f7f7;
+                --black: #000000;
+                --hospital-green: #ACD9B2;
+                --dark: #232830;
+            }
+
+            *{
+                box-sizing: border-box;
+                margin: 0;
+                padding: 0;
+            }
+
+            html{   
+                font-size: 62.5%;
+                font-family: 'Quicksand', sans-serif;
+            }
+
+            .nav-container{
+            	display: flex;
+            	justify-content: space-between;
+            	align-items: center;
+            	padding: 13px;
+            	box-shadow: 0 0 5px 0 var(--very-ligth-pink);
+            }
+            .shapeNav-img{
+            	width: 23px;
+            	height: 17px;
+            }
+            .logo-img{
+            	width: 115px;
+            	height: 24px;
+            	
+            }
+            .carrito-img{
+            	width: 27px;
+            	height: 27px;
+            }
+
+            /*Elementos del nav que no van en mobile*/
+            .list-nav{
+            	display: none;
+            }
+            .carrito-img-desktop{
+            	display: none;
+            }
+            .email{
+            	display: none;
+            }
+            .list-nav--container{
+            	display: none;
+            }
+            .email-container{
+            	display: none;
+            }
+
+            @media (min-width: 1080px) {
+            	.nav-container{
+            		padding: 16px 48px;
+            		justify-content: flex-start;
+            	}
+  				.shapeNav-img{
+    				display: none;
+    			}
+    			.carrito-img{
+    				display: none;
+    			}
+    			.list-nav--container{
+            		display: block;
+            	}
+            	.email-container{
+            		display: block;
+            	}
+    			.logo-img{
+    				margin-right: 24px;
+    			}
+    			.list-nav{
+    				display: flex;
+    			}
+    			.list-nav li{
+    				margin-left: 20px;
+    				list-style: none;
+       				font-size: 1.8rem;
+       				line-height: 2rem;
+       				font-weight: 500;
+    			}
+    			.list-nav li a{
+    				color: var(--very-ligth-pink);
+    				text-decoration: none;
+    			}
+    			.list-nav li:nth-child(1) a{
+    				color: var(--hospital-green);
+    				border: 1px solid var(--hospital-green);
+    				padding: 4px 12px;
+    				border-radius: 8px;
+    			}
+    			.carrito-img-desktop{
+    				display: block;
+    			}
+    			.email-container{
+    				display: flex;
+    				margin-left: auto;
+    				align-items: center;
+    			}
+    			.email{
+    				display: block;
+    				font-size: 1.6rem;
+    				line-height: 1.8rem;
+    				font-weight: 300;
+    				text-decoration: none;
+    				color: var(--black);
+    				margin-right: 20px;
+    			}
+    			.email-container a img{
+    				width: 6px;
+    				height: 10px;
+    				margin-left: 5px;
+    				transform: rotate(90deg);
+    			}
+  			}
+    </style>
+
+    <!--links de fuentes-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Inter:wght@300;500&family=Quicksand:wght@300;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+	<nav>
+		<div class="nav-container">
+			<img src="../icons/shapenav.svg" class="shapeNav-img">
+			<img src="../imgs/logo.png" class="logo-img">
+			<img src="../icons/carrito.svg" class="carrito-img">
+			<div class="list-nav--container">
+				<ul class="list-nav">
+					<li><a href="">All</a></li>
+					<li><a href="">Clothes</a></li>
+					<li><a href="">Electronics</a></li>
+					<li><a href="">Furniture</a></li>
+					<li><a href="">Toys</a></li>
+					<li><a href="">Other</a></li>
+				</ul>
+			</div>
+			<div class="email-container">
+				<a href="" class="email">christianf1f2@gmail.com  <img src="../icons/path.svg"></a>
+				<img src="../icons/carrito.svg" class="carrito-img-desktop">
+			</div>
+		</div>
+	</nav>
+</body>
+</html>
