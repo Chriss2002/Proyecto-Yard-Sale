@@ -1,0 +1,11 @@
+.main{
+	display: block;
+	margin: 0 auto;
+	max-width: 500px
+}
+.product-container{
+	max-width: 500px;
+}
+.total-main--container{
+	max-width: 500px;
+}
