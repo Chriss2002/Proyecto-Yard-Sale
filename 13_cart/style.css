@@ -24,27 +24,7 @@ html{
     height: auto;
     margin: 0 auto;
 }
-h1{
-    display: none;
-}
 
-
-.date-container div{
-    margin-left: 18px;
-}
-.articles{
-    font-size: 1.4rem;
-    line-height: 1.7rem;
-    font-weight: 400;
-    color: #797979;
-}
-.price{
-   font-size: 1.6rem;
-   line-height: 1.8rem;
-   font-weight: 700;
-   color: #404040;
-   margin-right: 18px;
-}
 
 .product-container{
     display: flex;
@@ -52,7 +32,7 @@ h1{
     height: 120px;
     margin: 0 auto;
 }
-.product-container img{
+.product-img{
     width: 80px;
     height: 80px;
     border-radius: 16px;
@@ -70,6 +50,18 @@ h1{
     font-weight: 400;
     color: #797979;
     margin-left: 18px
+}
+.price{
+   font-size: 1.6rem;
+   line-height: 1.8rem;
+   font-weight: 700;
+   color: #404040;
+   margin-right: 18px;
+}
+.product-container div img{
+    width: 12px;
+    height: 12px;
+    margin-left: 16px;
 }
 
 .total-main--container{

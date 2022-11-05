@@ -1,7 +1,9 @@
-.main{
+main{
+	position: absolute;
 	display: block;
-	margin: 0 auto;
-	max-width: 500px
+	right: 0;
+	max-width: 500px;
+	min-width: 500px;
 }
 .product-container{
 	max-width: 500px;

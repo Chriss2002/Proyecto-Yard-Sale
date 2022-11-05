@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YardSale</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <!--links de fuentes-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&family=Inter:wght@300;500&family=Quicksand:wght@300;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <nav>
+        <div class="nav-container">
+            <img src="icons/shapenav.svg" class="shapeNav-img" onclick="toggleMenuMobile()">
+            <img src="imgs/logo.png" class="logo-img">
+            <img src="icons/carrito.svg" class="cart-mobile">
+            <div class="list-nav--container">
+                <ul class="list-nav">
+                    <li><a href="">All</a></li>
+                    <li><a href="">Clothes</a></li>
+                    <li><a href="">Electronics</a></li>
+                    <li><a href="">Furniture</a></li>
+                    <li><a href="">Toys</a></li>
+                    <li><a href="">Other</a></li>
+                </ul>
+            </div>
+            <div class="email-container">
+                <p href="" class="email" onclick="toggleMenu()">christianf1f2@gmail.com  <img src="icons/path.svg"></p>
+            </div>
+            <div>
+                <img src="icons/carrito.svg" class="cart-img-desktop" onclick="toggleCart()">
+            </div>
+
+            <!-- Menu nav Desktop -->
+            <div class="menu-container-desktop inactive"> 
+                <ul>
+                    <li><a href="">My orders</a></li>
+                    <li><a href="">My account</a></li>
+                    <li><a href="">Sign out</a></li>
+                </ul>
+            </div>
+
+            <!-- Menu nav Mobile -->
+            <div class="menu-container-mobile inactive-mobile">
+                <div class="categories-container">
+                    <h1>CATEGORIES</h1>
+                    <ul>
+                        <li><a href=""></a>All</li>
+                        <li><a href=""></a>Clothes</li>
+                        <li><a href=""></a>Electronics</li>
+                        <li><a href=""></a>Furnitures</li>
+                        <li><a href=""></a>Toys</li>
+                        <li><a href=""></a>Other</li>
+                    </ul>
+                </div>
+                <div class="account-container">
+                    <ul>
+                        <li><a href=""></a>My orders</li>
+                        <li><a href=""></a>My account</li>
+                    </ul>
+                </div>
+                <div class="sing-out--container">
+                    <p>christianf1f2@gmail.com</p>
+                    <a href="">Sing out</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <section class="main-container inactive-cart">
+            <div class="product-container">
+                <img src="imgs/estante.png" class="product-img">
+                <div>
+                    <p class="description">Round shelf</p>
+                    <p class="price">$ 120<img src="icons/x.svg"></p>
+                </div>
+            </div>
+
+            <div class="product-container">
+                <img src="imgs/estante.png" class="product-img">
+                <div>
+                <p class="description">Round shelf</p>
+                <p class="price">$ 120<img src="icons/x.svg"></p>
+                </div>
+            </div>
+
+            <div class="product-container">
+                <img src="imgs/estante.png" class="product-img">
+                <div>
+                <p class="description">Round shelf</p>
+                <p class="price">$ 120<img src="icons/x.svg"></p>
+                </div>
+            </div>
+
+            <div class="product-container">
+                <img src="imgs/estante.png" class="product-img">
+                <div>
+                <p class="description">Round shelf</p>
+                <p class="price">$ 120<img src="icons/x.svg"></p>
+                </div>
+            </div>
+
+            <div class="product-container">
+                <img src="imgs/estante.png" class="product-img">
+                <div>
+                <p class="description">Round shelf</p>
+                <p class="price">$ 120<img src="icons/x.svg"></p>
+                </div>
+            </div>
+
+
+            <div class="total-container">
+                <div>
+                    <p class="date">Total</p>
+                </div>
+                <p class="price">$ 720</p>
+            </div>
+
+            <input type="submit" value="Checkout">
+        </section>
+
+
+        <section class="cards-container" id="id-cards">
+            <div class="product-card">
+                <div>
+                    <img src="imgs/estante.png" class="product-img">
+                </div>
+                <div class="price-container">
+                    <div>
+                        <p class="price">$120</p>
+                        <p class="description-main-imgs">Round shelf</p>
+                    </div>
+                    <img src="icons/agregar-carrito.svg">
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div>
+                    <img src="imgs/estante.png" class="product-img">
+                </div>
+                <div class="price-container">
+                    <div>
+                        <p class="price">$120</p>
+                        <p class="description-main-imgs">Round shelf</p>
+                    </div>
+                    <img src="icons/agregar-carrito.svg">
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div>
+                    <img src="imgs/estante.png" class="product-img">
+                </div>
+                <div class="price-container">
+                    <div>
+                        <p class="price">$120</p>
+                        <p class="description-main-imgs">Round shelf</p>
+                    </div>
+                    <img src="icons/agregar-carrito.svg">
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div>
+                    <img src="imgs/estante.png" class="product-img">
+                </div>
+                <div class="price-container">
+                    <div>
+                        <p class="price">$120</p>
+                        <p class="description-main-imgs">Round shelf</p>
+                    </div>
+                    <img src="icons/agregar-carrito.svg">
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div>
+                    <img src="imgs/estante.png" class="product-img">
+                </div>
+                <div class="price-container">
+                    <div>
+                        <p class="price">$120</p>
+                        <p class="description-main-imgs">Round shelf</p>
+                    </div>
+                    <img src="icons/agregar-carrito.svg">
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div>
+                    <img src="imgs/estante.png" class="product-img">
+                </div>
+                <div class="price-container">
+                    <div>
+                        <p class="price">$120</p>
+                        <p class="description-main-imgs">Round shelf</p>
+                    </div>
+                    <img src="icons/agregar-carrito.svg">
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div>
+                    <img src="imgs/estante.png" class="product-img">
+                </div>
+                <div class="price-container">
+                    <div>
+                        <p class="price">$120</p>
+                        <p class="description-main-imgs">Round shelf</p>
+                    </div>
+                    <img src="icons/agregar-carrito.svg">
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div>
+                    <img src="imgs/estante.png" class="product-img">
+                </div>
+                <div class="price-container">
+                    <div>
+                        <p class="price">$120</p>
+                        <p class="description-main-imgs">Round shelf</p>
+                    </div>
+                    <img src="icons/agregar-carrito.svg">
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div>
+                    <img src="imgs/estante.png" class="product-img">
+                </div>
+                <div class="price-container">
+                    <div>
+                        <p class="price">$120</p>
+                        <p class="description-main-imgs">Round shelf</p>
+                    </div>
+                    <img src="icons/agregar-carrito.svg">
+                </div>
+            </div>
+
+            <div class="product-card">
+                <div>
+                    <img src="imgs/estante.png" class="product-img">
+                </div>
+                <div class="price-container">
+                    <div>
+                        <p class="price">$120</p>
+                        <p class="description-main-imgs">Round shelf</p>
+                    </div>
+                    <img src="icons/agregar-carrito.svg">
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script type="text/javascript" src="script.js"></script>
+</body>
+</html>
+</html>
