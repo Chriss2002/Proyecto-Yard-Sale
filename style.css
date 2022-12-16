@@ -159,10 +159,6 @@ html{
     display: none;
 }
 
-/**/
-main{
-    flex-flow: row wrap;
-}
 
 /*1*/
 .cards-container{

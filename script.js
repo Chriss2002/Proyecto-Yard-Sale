@@ -7,8 +7,9 @@ const mainCart = document.querySelector(".main-container")
 const menuCartDesktop = document.querySelector(".main-container")
 //contenedor de productos
 let cardsContainer = document.querySelector(".cards-container")
-//
+//abrir y cerrar detalle de producto
 const detailProduct = document.querySelector(".detail-product--container")
+const buttonCloseDetailProduct = document.querySelector(".close-detail")
 
 
 function toggleMenu(){
@@ -126,9 +127,6 @@ function mainCards(arr){
 
 mainCards(productCards)
 
-
-/**/
-const buttonCloseDetailProduct = document.querySelector(".close-detail")
 
 function openDetailProduct(){
 	detailProduct.classList.remove("inactive-detail")
