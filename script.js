@@ -127,7 +127,7 @@ function mainCards(arr){
 
 mainCards(productCards)
 
-
+//
 function openDetailProduct(){
 	detailProduct.classList.remove("inactive-detail")
 	console.log("hola")
